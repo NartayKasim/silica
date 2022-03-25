@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  --font: "Abel", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  height: auto;
+  width: auto;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  width: auto;
+  height: fit-content;
+  background: var(--cultured-2);
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: url("../assets/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.left,
+.right {
+  font-family: var(--font);
+  font-size: 6rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  width: 20%;
+  display: flex;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  margin-bottom: 1rem;
+}
+
+.right {
+  justify-content: flex-end;
+}
